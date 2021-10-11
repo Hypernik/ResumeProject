@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+#list{
+   
+    /*padding-left: 80px;*/
+    padding-right: 60px;
+}
 body{
     background: lightblue;
     display: flex;
@@ -86,6 +91,7 @@ body{
 
 .contact{
     padding-top: 40px;
+    margin-bottom: 20px;
 
 }
 
@@ -100,6 +106,7 @@ body{
 
 .contact ul{
     position: relative;
+    line-height: 1.4em;
 
 }
 
@@ -108,6 +115,10 @@ body{
     position: relative;
     margin: 10px 0;
     cursor: pointer;
+}
+.f{
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .contact ul li .icon{
@@ -125,6 +136,7 @@ body{
 
 .contact ul li span .text{
     font-size: 10px;
+    line-height: 1.4em;
 }
 
 #education {
@@ -173,9 +185,14 @@ body{
     border: 1px solid #003147;
 }
 .font{
-    font-family:'Poppins', sans-serif;
+    font-family: 'Times New Roman';
     font-size: 20px;
     margin: 5px ;
+    list-style: none;
+}
+.fsize{
+    font-size: 15px;
+    font-weight: bold;
 }
   
 .sumry{
@@ -196,7 +213,7 @@ body{
 .div1{
     /*background-color: grey; */
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     border-radius: 10px;
     position: relative;
     transition: top ease 0.5s;
@@ -210,7 +227,7 @@ body{
 }
 #div{
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
 }
@@ -220,7 +237,7 @@ body{
     .container{
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
-        text-align: center;
+        text-align: left;
     }
     #education{
         margin: 10px;
