@@ -244,3 +244,81 @@ body{
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+/* After Js */
+
+
+/* Collapsible Part */
+.collapsible {
+    background-color:rgb(221, 254, 214);
+    color: Black;
+    cursor: pointer;
+  -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+  padding: 4px 8px;
+        text-align: left;
+        display: inline-block;
+        margin: 4px 2px;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+  border: 0.1px solid black;
+  opacity: 0.8;
+  border: 1px solid lightgrey;
+}
+
+.active, .collapsible:hover {
+    background-color: #4CAF50;
+  border-color: black;
+
+}
+
+.content{
+    display: none;
+}
+
+/* Fullscreen Button */
+header{
+    background-color:#4CAF50;
+    text-align: center;
+  font-family: 'Faster One', cursive;
+    font-size: 30px; 
+    color: white;
+  margin: 2px 5px 5px 0;
+  border-style: groove;
+  text-decoration: underline;
+  border:1.5px solid green;
+    text-shadow: 1px 1px 2px black, 0 0 20px #FF0000, 0 0 2px lightblue;
+  -webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;
+  -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 20px;
+  
+}
+
+.btn1{
+    color: black;
+    border: 1.2px solid green;
+    -webkit-border-radius: 25;
+      -moz-border-radius: 25;
+      border-radius: 25px;
+    background-color: rgb(245, 255, 240);
+    padding: 2px 6px;
+      text-align: center;
+    display: inline-block;
+      font-size: 10px;
+      margin: 4px 2px;
+      cursor: pointer;
+      text-decoration: none;	
+    font-family: "Courier New", Courier, monospace;	
+    float:right;
+    opacity: 0.8;
+}
+
+.btn1:hover{
+    background-color: #4CAF50;
+          color: white;
+    border: 1.2px solid white;
+}
