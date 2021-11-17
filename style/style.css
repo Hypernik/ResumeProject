@@ -91,7 +91,7 @@ body{
 
 .contact{
     padding-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 
 }
 
@@ -101,7 +101,6 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
-
 }
 
 .contact ul{
@@ -253,73 +252,61 @@ body{
     background-color:#003147;
     color: white;
     cursor: pointer;
-  /*-webkit-border-radius: 25;
-    -moz-border-radius: 25;*/
-    border-radius: 25px;
     padding: 4px 8px;
-    text-align: left;
-    
+    text-align: center;
     display: inline-block;
     margin: 4px 2px;
     width: 100%;
     outline: none;
     font-size: 15px;
-  border: 0.1px  solid black;
-  opacity: 0.8;
-  /*border: 1px solid lightgrey;*/
+    border: 0.1px  solid black;
+    opacity: 0.8;
 }
 
-/*.active:hover {
-background-color: #003147 ;
-  border-color: #003147;
+.collapsible:hover {
+    background-color: white ;
+    color: #003147;
+    border-color: #003147;
 
-}*/
+}
 
 .content{
     display: none;
 }
 
-
-
 .btn1{
     color: black;
     border: 1.2px solid white;
-    -webkit-border-radius: 25;
-      -moz-border-radius: 25;
-      border-radius: 25px;
-    background-color: rgb(245, 255, 240);
     padding: 2px 6px;
-      text-align: center;
+    text-align: center;
     display: inline-block;
-      font-size: 10px;
-      margin: 4px 2px;
-      cursor: pointer;
-      text-decoration: none;	
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;	
     font-family: "Courier New", Courier, monospace;	
-    /*float: right;*/
     opacity: 0.8;
 }
 
 .btn1:hover{
     background-color: #003147;
-          color: white;
+    color: white;
     border: 1.2px solid white;
 }
 /* fullscreen*/
 #fs{
-   /* background-color:#4CAF50;*/
     text-align: right;
-  font-family: 'Faster One', cursive;
+    font-family: 'Faster One', cursive;
     font-size: 30px; 
     color: white;
-  margin: 2px 5px 5px 0;
-  border-style: groove;
-  text-decoration: underline;
-  border:1.5px solid white;
+    margin: 2px 5px 5px 0;
+    border-style: groove;
+    text-decoration: underline;
+    border:1.5px solid white;
     text-shadow: 1px 1px 2px black, 0 0 20px #FF0000, 0 0 2px lightblue;
-  -webkit-animation: mymove 5s infinite; 
+    -webkit-animation: mymove 5s infinite; 
     animation: mymove 5s infinite;
-  -webkit-border-radius: 28;
+    -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 20px;
     margin-bottom: 15px;
@@ -330,23 +317,19 @@ background-color: #003147 ;
     background-color:#003147;
     color: white;
     cursor: pointer;
-    
-  /*-webkit-border-radius: 25;
-    -moz-border-radius: 25;*/
-    border-radius: 25px;
     padding: 4px 8px;
-    text-align: left;
+    text-align: center;
     display: inline-block;
     margin: 4px 2px;
     width: 100%;
     outline: none;
     font-size: 15px;
-    border: 0.1px solid black;
-
-
-
-
-          
+    border: 0.1px solid black;          
+}
+.button1:hover{
+    background-color: white;
+    color: #003147;
+    border: 1.2px solid white;
 }
 a.button{
     -webkit-appearance: button;
@@ -355,13 +338,9 @@ a.button{
 .button1{
     background-color: white;
     border: 0.1px solid black;
+    padding: 2px;
     font-weight: bold;
-
 }
-
-
-/* Feed back CSS   */
-
 
 .open-button {
     background-color: #003147;
@@ -374,31 +353,29 @@ a.button{
     bottom: 23px;
     right: 28px;
     width: 200px;
-  -webkit-border-radius: 20;
-    -moz-border-radius: 20;
-    border-radius: 20px;
   
 }
 
-/* Hiding pop up form(default) */
-
 .form-popup {
     display: none;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     right: 15px;
     z-index: 9;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 20px;
 }
-
-/* Form Container */
 
 .form-container {
     max-width: 300px;
     padding: 10px;
-    background-color: white;
+    background-color:#003147;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 20px;
+    
 }
-
-/* Full-width input fields */
 
 .form-container input[type=text] {
     width: 100%;
@@ -406,19 +383,19 @@ a.button{
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 20px;
+    margin-bottom: 40px;
 }
-
-/* input field focus */
 
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
 }
 
-/* submit button */
-
 .form-container .btn {
-    background-color: #003147;
+    background-color: black;
     color: white;
     padding: 16px 20px;
     border: none;
@@ -426,12 +403,16 @@ a.button{
     width: 100%;
     margin-bottom:10px;
     opacity: 0.8;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 20px;
 }
 
-/*  cancel button */
-
 .form-container .cancel {
-    background-color: #003147;
+    background-color: black;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 20px;
 
 }
 

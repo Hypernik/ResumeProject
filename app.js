@@ -23,7 +23,7 @@ function closeFullscreen() {
 	}
 }
 
-// Collapseable Secions
+// Collapseable Sections
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
