@@ -39,4 +39,19 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-//
+// Feedback Part
+
+function openForm() {
+	document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+	document.getElementById("myForm").style.display = "none";
+  }
+                          
+  function mailMe(form){
+	  Subject="Resume-project: FeedBack Mail";
+	  CC= document.testform.email.value;
+	  location = "mailto:abc@abc.com?subject="+Subject+"&cc="+CC+'&body='+document.getElementById('comment').value;
+	  return true;
+  }

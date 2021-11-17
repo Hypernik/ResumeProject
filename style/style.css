@@ -250,57 +250,40 @@ body{
 
 /* Collapsible Part */
 .collapsible {
-    background-color:rgb(221, 254, 214);
-    color: Black;
+    background-color:#003147;
+    color: white;
     cursor: pointer;
-  -webkit-border-radius: 25;
-    -moz-border-radius: 25;
+  /*-webkit-border-radius: 25;
+    -moz-border-radius: 25;*/
     border-radius: 25px;
-  padding: 4px 8px;
-        text-align: left;
-        display: inline-block;
-        margin: 4px 2px;
+    padding: 4px 8px;
+    text-align: left;
+    
+    display: inline-block;
+    margin: 4px 2px;
     width: 100%;
     outline: none;
     font-size: 15px;
-  border: 0.1px solid black;
+  border: 0.1px  solid black;
   opacity: 0.8;
-  border: 1px solid lightgrey;
+  /*border: 1px solid lightgrey;*/
 }
 
-.active, .collapsible:hover {
-    background-color: #4CAF50;
-  border-color: black;
+/*.active:hover {
+background-color: #003147 ;
+  border-color: #003147;
 
-}
+}*/
 
 .content{
     display: none;
 }
 
-/* Fullscreen Button */
-header{
-    background-color:#4CAF50;
-    text-align: center;
-  font-family: 'Faster One', cursive;
-    font-size: 30px; 
-    color: white;
-  margin: 2px 5px 5px 0;
-  border-style: groove;
-  text-decoration: underline;
-  border:1.5px solid green;
-    text-shadow: 1px 1px 2px black, 0 0 20px #FF0000, 0 0 2px lightblue;
-  -webkit-animation: mymove 5s infinite; 
-    animation: mymove 5s infinite;
-  -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 20px;
-  
-}
+
 
 .btn1{
     color: black;
-    border: 1.2px solid green;
+    border: 1.2px solid white;
     -webkit-border-radius: 25;
       -moz-border-radius: 25;
       border-radius: 25px;
@@ -313,12 +296,154 @@ header{
       cursor: pointer;
       text-decoration: none;	
     font-family: "Courier New", Courier, monospace;	
-    float:right;
+    /*float: right;*/
     opacity: 0.8;
 }
 
 .btn1:hover{
-    background-color: #4CAF50;
+    background-color: #003147;
           color: white;
     border: 1.2px solid white;
+}
+/* fullscreen*/
+#fs{
+   /* background-color:#4CAF50;*/
+    text-align: right;
+  font-family: 'Faster One', cursive;
+    font-size: 30px; 
+    color: white;
+  margin: 2px 5px 5px 0;
+  border-style: groove;
+  text-decoration: underline;
+  border:1.5px solid white;
+    text-shadow: 1px 1px 2px black, 0 0 20px #FF0000, 0 0 2px lightblue;
+  -webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;
+  -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 0.05px;
+  
+}
+ .button{
+    background-color:#003147;
+    color: white;
+    cursor: pointer;
+    
+  /*-webkit-border-radius: 25;
+    -moz-border-radius: 25;*/
+    border-radius: 25px;
+    padding: 4px 8px;
+    text-align: left;
+    display: inline-block;
+    margin: 4px 2px;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    border: 0.1px solid black;
+
+
+
+
+          
+}
+a.button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+}
+.button1{
+    background-color: white;
+    border: 0.1px solid black;
+    font-weight: bold;
+
+}
+
+
+/* Feed back CSS   */
+
+
+.open-button {
+    background-color: #003147;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 200px;
+  -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+  
+}
+
+/* Hiding pop up form(default) */
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9;
+}
+
+/* Form Container */
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+
+.form-container input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* input field focus */
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* submit button */
+
+.form-container .btn {
+    background-color: #003147;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/*  cancel button */
+
+.form-container .cancel {
+    background-color: #003147;
+
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  text-decoration : underline;
+}
+
+a:visited{
+  color: #003147;
+}
+a:hover{
+  color: #003147;
+  text-shadow: 0.5px 0.5px 0px;
 }
